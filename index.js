@@ -36,3 +36,11 @@ function customMap(array, callback){
     }
     return newarray
 }
+
+function addMr(BName){
+    let khan = `Mr ${BName}`;
+    return khan
+}
+
+let result1 = customMap(['Abrar','Shehbaz','Sania','Hoor','Marium'],addMr)
+console.log(result1)
